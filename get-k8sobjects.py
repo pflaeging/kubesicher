@@ -54,7 +54,7 @@ def exportable(object):
     # delete certain elements
     del jsonset["metadata"]["selfLink"]
     # Make filename
-    filename = "%s%s:%s.yaml" % (destination, jsonset["kind"], jsonset["metadata"]["name"])
+    filename = "%s%s_%s.yaml" % (destination, jsonset["kind"], jsonset["metadata"]["name"])
     exportfile = open(filename, 'w')
     # serialize to yaml
     yamlout = yaml.dump(jsonset)
