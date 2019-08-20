@@ -18,7 +18,7 @@ The idea is really simple:
 1. Schedule with k8s cronjobs
 1. Save in a defined git repo
 
-[Further documentation](doc/readme)
+[Further documentation](doc/readme.md)
 
 ## Status
 
