@@ -34,7 +34,7 @@
 import os, sys, yaml, json, re, argparse, subprocess, pprint
 
 # defaults
-default_objecttypes = ["deployments", "services", "route", "pvc", "configmap", "secret"]
+default_objecttypes = ["deployments", "services", "route", "pvc", "configmap", "secret", "roles", "crd", "sa"]
 command = "/usr/local/bin/kubectl"
 verbose = False
 destination = ""
